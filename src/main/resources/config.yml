@@ -1,0 +1,3 @@
+scheduled-commands:
+  - "12:00 say Hello at noon!"
+  - "18:00 say Good evening!"

@@ -1,0 +1,14 @@
+name: CommandScheduler
+version: '${project.version}'
+main: com.ashkiano.commandscheduler.CommandScheduler
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  schedule:
+    description: Schedules a command to be run after a delay.
+    usage: /schedule <delay> <command>
+    permission: commandscheduler.schedule
+permissions:
+  commandscheduler.schedule:
+    description: Allows the player to schedule commands.
+    default: op
